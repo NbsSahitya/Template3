@@ -105,3 +105,33 @@ form {
 #textbox{
     border: 1px solid gray;
 }
+.footer{
+    overflow:hidden;
+    display:block;
+}
+#footer-left-text
+{
+    float:left;
+    display:inline;
+    padding: 30px;
+    font-weight: bolder;
+}
+#footer-right-text
+{
+    float:right;
+    display:inline;
+    padding: 30px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+    #all-boxes{
+        display: block;
+    }
+    .box{
+        width: auto;
+    }
+    #box-text{
+        width: 64%;
+        
+    }
+}
